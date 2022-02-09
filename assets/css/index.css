@@ -96,6 +96,10 @@ a .active, a:hover {
     height: 600px;
 }
 
+.sec-2 h2 {
+    text-align: center;
+}
+
 #sec-2-img {
     background:url('../css/images/Four+knives+and+two+stones+square+web.jpg') no-repeat;
     background-size: cover;
@@ -111,6 +115,18 @@ a .active, a:hover {
     height: 85%;
     width: 40%;
     float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.sec-2-benefits h2 {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.sec-2-benefits p {
+    font-size: 120%;
+    padding: 10px;
 }
 
 /* footer */
