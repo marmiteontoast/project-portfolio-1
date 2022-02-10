@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 /* universal selector */ 
 * {
@@ -9,18 +10,23 @@
 }
 
 body {
-    font-family: montserrat;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+}
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
 }
 
 /* header and navigation links */
 nav {
-    background: #0082e6;
+    background: white;
     height: 80px;
     width: 100%;
 }
 
 label.logo {
-    color: white;
+    color: black;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -39,7 +45,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -53,7 +59,7 @@ a .active, a:hover {
 
 .checkbtn {
     font-size: 30px;
-    color: white;
+    color: black;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -90,10 +96,9 @@ a .active, a:hover {
     font-size: 160%;   
 }
 
-/* why knif sharpening */
+/* why knife sharpening */
 .sec-2 {
-    /* background: green; */
-    height: 600px;
+    height: 37.5rem; 
 }
 
 .sec-2 h2 {
@@ -108,11 +113,12 @@ a .active, a:hover {
     float: left;
     margin-left: 20px;
     margin-top: 20px;
+    border-radius: 50%;
 }
 
 .sec-2-benefits {
     background: #ff1b2e;
-    height: 85%;
+    min-height: 22rem; 
     width: 40%;
     float: right;
     margin-right: 20px;
@@ -125,8 +131,22 @@ a .active, a:hover {
 }
 
 .sec-2-benefits p {
-    font-size: 120%;
+    font-size: 1.188rem;
     padding: 10px;
+}
+
+/* times */
+#times{
+    height: 150px;
+}
+
+#times div {
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: solid;
+    text-align: center;
+    
 }
 
 /* footer */
@@ -169,6 +189,8 @@ footer h2 {
     nav ul li a {
         font-size: 16px;
     }
+
+   
 }
 
 @media (max-width: 858px) {
@@ -203,6 +225,30 @@ footer h2 {
     #check:checked ~ ul {
         left: 0;
     }
+
+   .sec-2 {
+        width: 100%;
+        height: 858px;
+        margin: 0 auto;
+    
+   }
+
+   #sec-2-img {
+       width: 50%;
+       height: 50%;
+   }
+
+   .sec-2-benefits {
+        
+   }
+
+
+   #times > div {
+        height: 150px;
+        width: 100%;
+        clear: both;
+   }
+   
 }
 
    
