@@ -175,6 +175,12 @@ footer h2 {
     
 }
 
+/* sign up page */
+
+#form {
+    min-height: 79.875rem;
+}
+
 
 
 
@@ -238,9 +244,7 @@ footer h2 {
        height: 50%;
    }
 
-   .sec-2-benefits {
-        
-   }
+   
 
 
    #times > div {
