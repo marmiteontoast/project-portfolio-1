@@ -78,7 +78,7 @@ a .active, a:hover {
 }
 
 #hero-image {
-    background: url('../css/images/Japanese-Knives.jpg') no-repeat;
+    background: url('../css/images/sharpening-with-whetstone_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.jpg') no-repeat center center;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -98,7 +98,7 @@ a .active, a:hover {
 
 /* why knife sharpening */
 .sec-2 {
-    height: 37.5rem; 
+    height: 600px; 
 }
 
 .sec-2 h2 {
@@ -152,6 +152,7 @@ a .active, a:hover {
 /* footer */
 footer {
     height: 150px;
+    width: 100%;
     background: #ff1b2e;
 }
 
@@ -196,6 +197,12 @@ footer h2 {
         font-size: 16px;
     }
 
+    #times > div {
+        height: 150px;
+        width: 100%;
+        clear: both;
+   }
+
    
 }
 
@@ -232,16 +239,28 @@ footer h2 {
         left: 0;
     }
 
+
+
    .sec-2 {
         width: 100%;
-        height: 858px;
+        height: 900px;
         margin: 0 auto;
     
+   }
+
+   .sec-2-benefits {
+    clear: both;
+    float: left;
+    width: 60%;
+    margin-left: 170px;
+    margin-bottom: 20px;
    }
 
    #sec-2-img {
        width: 50%;
        height: 50%;
+       margin-left: 200px;
+      
    }
 
    
@@ -255,4 +274,6 @@ footer h2 {
    
 }
 
-   
+ @media (max-width: 400px) {
+     
+ }
