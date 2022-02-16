@@ -13,14 +13,22 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
 }
+.wrapper {
+    margin: 0 auto;
+   max-width: 1261px;   
+}
 
 h1, h2 {
     font-family: Oswald, sans-serif;
 }
 
 /* header and navigation links */
-nav {
+header {
     background: #ff1b2e;
+}
+
+nav {
+    /* background: #ff1b2e; */
     height: 80px;
     width: 100%;
 }
@@ -135,6 +143,29 @@ a .active, a:hover {
     padding: 10px;
 }
 
+/* testimonials */
+#testimonials  {
+    height: 70.25rem;
+}
+ 
+#testimonials h2 {
+    text-align: center;
+}
+#testimonials article {
+
+}
+
+.review-styling {
+    padding: 1.7rem 2.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+    background: #ff1b2e;
+}
+
+
+
 /* times */
 #times{
     height: 150px;
@@ -151,7 +182,6 @@ a .active, a:hover {
 
 /* footer */
 footer {
-    height: 150px;
     width: 100%;
     background: rgb(255, 27, 46);
     clear: both;
@@ -161,6 +191,12 @@ footer h2 {
     text-align: center;
     padding-top: 20px;
 }
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+}
+
  #social {
     text-align: center;
 }
@@ -239,7 +275,7 @@ footer h2 {
    
 }
 
-@media (max-width: 858px) {
+@media (max-width: 911px) {
     .checkbtn {
         display: block;
     }
@@ -276,7 +312,7 @@ footer h2 {
 
    .sec-2 {
         width: 100%;
-        height: 900px;
+        height: 68.75rem;
         margin: 0 auto;
     
    }
@@ -290,11 +326,15 @@ footer h2 {
    }
 
    #sec-2-img {
-       width: 50%;
-       height: 50%;
-       margin-left: 200px;
-      
+       width: 60%;
+       height: 47%;
+       margin-left: 160px;  
    }
+
+   #testimonials {
+       height: 74Srem;
+   } 
+
 
    
 
