@@ -80,7 +80,7 @@ a .active, a:hover {
 
 /* hero image and cover content */
 #hero-outer {
-    background: purple;
+    /* background: purple; */
     height: 600px;
     width: 100%;
 }
@@ -145,15 +145,13 @@ a .active, a:hover {
 
 /* testimonials */
 #testimonials  {
-    height: 70.25rem;
+    /* height: 70.25rem; */
 }
  
 #testimonials h2 {
     text-align: center;
 }
-#testimonials article {
 
-}
 
 .review-styling {
     padding: 1.7rem 2.5rem;
@@ -164,10 +162,9 @@ a .active, a:hover {
     background: #ff1b2e;
 }
 
-
-
 /* times */
 #times{
+    background: url('../css/images/Japanese-Knife-Sharpening.webp');
     height: 150px;
 }
 
