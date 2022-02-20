@@ -249,9 +249,10 @@ footer p {
 
 /* knives page */
 #img-gyuto {
-    background: url('../css/images/koishi-gyuto-210mm-1_5000x.jpg');
+    background: url('../css/images/koishi-gyuto-210mm-1_5000x.jpg') no-repeat;
     width: 100%;
     height: 300px;
+    background-size: 55%;
 }
 
 
