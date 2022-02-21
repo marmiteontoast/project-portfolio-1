@@ -248,11 +248,34 @@ footer p {
 }
 
 /* knives page */
-#img-gyuto {
-    background: url('../css/images/koishi-gyuto-210mm-1_5000x.jpg') no-repeat;
+.img-gyuto {
+    background: url('../css/images/koishi-gyuto-210mm-1_5000x.jpg');
+   
+}
+
+.img-santoku {
+    background: url('../css/images/fujiwara-maboroshi-santoku-165-1_5000x.jpg');
+
+}
+
+.img-nakiri {
+    background: url('../css/images/tadokoro-nakiri-1_5000x.webp');
+}
+
+.img-petty-parry {
+    background: url('../css/images/fujimoto-nashiji-petty-1_5000x.jpg');
+}
+
+.img-honesuki {
+    background: url('../css/images/hammertone-honesuki-1_5000x.jpg');
+}
+
+
+.img-styling {
+    background-size: 55%;
+    background-repeat: no-repeat;
     width: 100%;
     height: 300px;
-    background-size: 55%;
 }
 
 
