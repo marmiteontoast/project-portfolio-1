@@ -386,5 +386,8 @@ footer p {
 }
 
  @media (max-width: 400px) {
-     
+    .img-styling {
+        background-size: 30rem;
+        margin: 0 auto;
+    }
  }
