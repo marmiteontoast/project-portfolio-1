@@ -114,7 +114,7 @@ a .active, a:hover {
 }
 
 #sec-2-img {
-    background:url('../css/images/Four+knives+and+two+stones+square+web.jpg') no-repeat;
+    background:url('../css/images/standard_resolution.jpg') no-repeat;
     background-size: cover;
     height: 85%;
     width: 40%;
@@ -127,7 +127,7 @@ a .active, a:hover {
 .sec-2-benefits {
     background: #ff1b2e;
     min-height: 22rem; 
-    width: 40%;
+    width: 50%;
     float: right;
     margin-right: 20px;
     margin-top: 20px;
