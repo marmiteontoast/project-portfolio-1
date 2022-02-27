@@ -33,5 +33,47 @@ This is the knife sharpening sign up website for the knife retail shop Chef tool
     - This section provides a brief explanation of the benefits of learning to sharpen. 
     - The image gives the vistor a visual of what the classes would look like and how fun i can be. 
     - also shows that the classes are available for all genders.
+    - the section is responsive once it reaches 911px or less the two divs will stack on top of each other and slightly reduce in size
 
 <h2><img src="assets/css/images/about-section-screenshot.png"></h2>
+
+- ## Testimonails 
+
+    - This section provides proof for the visitor that the participants found the classes informative and enjoyable 
+    - shows visitors it's level of success and quality of service 
+    - It shows visitors an unbised view and establishs customer trust.
+
+    <h2><img src="assets/css/images/testimonial-screenshot.png"></h2>
+
+ - ## Times 
+
+     - this sections providice visitor with the scedule, tiime and price of the classes 
+     - this gives visitors the information on which class to pick from and best supports there scedule 
+
+
+<h2><img src="assets/css/images/times-screenshot.png"></h2>
+
+- ## Footer/contact section 
+
+    - vistiors are provided with a phone number and email which ever is best for them to use.
+    - the site also provides links to various social media accounts in the form of icons.
+    - The section is important because it gives the visitor the ability to contact someone at chef tools for any sort of enquiries they may have.
+
+<h2><img src="assets/css/images/footer-section-screenshot.png"></h2>
+
+- ## Knives Page
+
+    - This section provides the vistitor with information on some of the various Japanese knifes 
+    - It section gives a general understanding of a knife profile and provides an idea of what sharpening technique on wich to use.
+    - pictures provide a visual of how the knife looks (knife profile vary according to knife maker)
+    - The page is responsive and shrinks down to all media devices.
+
+<h2><img src="assets/css/images/knives-screenshot-2.0.png"></h2>
+
+- ## sign up Page
+
+    - this page consists of an image of a man sharpening a knife for its background 
+    - on the top left corner there is a form with three boxes to input your name, sir name, and email adress. below that are buttons reprasenting the date the classes are on. 
+    - this page provides the vistor to the chance to sign up for the sharpening class.
+
+<h2><img src="assets/css/images/signup-screenshot.png"></h2>
