@@ -89,10 +89,59 @@ This is the knife sharpening sign up website for the knife retail shop Chef tool
 
  ## bugs
 
-solved bugs:
+### solved bugs:
 
  - when i reduced the screen size the the times section would create overflow passing through the footer.
  - I discovered it was the ul selector specifically "position: fixed", that was affecting all ul's on my index page.
     
   <h2><img src="assets/css/images/slack-screenshot.png"></h2>
+
 - removal of attribute fixed this as well as giving nav and footer elements separate ids.
+
+## Validator Tesing 
+
+- ### HTML
+    - No errors detected when passing through official W3C validator
+
+- ### CSS
+    - No errors detected when passing through officail (Jigsaw) Validator
+
+- ### Accessibility
+    - I have confirmed that colors and font styles are readable, and accessibility is a high percentage for all pages on this project using lighthouse in devtools.
+
+    - ### index
+    <h2><img src="assets/css/images/index-LH-Screenshot.png"></h2>
+
+    - ### Knives
+    <h2><img src="assets/css/images/knive-LH-Screenshot.png"></h2>
+
+    - ### sign up
+    <h2><img src="assets/css/images/signup-LH-screenshot.png"></h2>
+
+## unfixed bugs
+
+- when the screen is expanded beyond 2000px the div that floats on top of the hero image all the the way to the right.
+
+# Deployment
+
+The site is deployed on GitHub. The steps to deploy are as follows:
+
+- Click on repository 'project-portfolio-1' from my account. From there navigate to settings.
+- scroll down to GitHub pages, there will be a link to navigate you to the next page.
+- select main in the branch, then you will be provided a link that will take you to the completed website
+
+[view project here.](https://marmiteontoast.github.io/project-portfolio-1/)    
+
+# Credits
+
+## Content
+
+- the code to make the navigation bar was taken from a [youtube video](https://www.youtube.com/watch?v=oLgtucwjVII&list=PLMmcKEMXVzoKWH-ErijZhEH8T9yAT4htZ&index=1&t=197s) 
+- the footer code was taken from love running project 
+
+## Media 
+
+- Got all knife pictures on the knives page from the site [knife wear](https://knifewear.com/)
+- pictures on the index page was found through google search.
+
+

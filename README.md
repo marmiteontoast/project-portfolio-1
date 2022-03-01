@@ -1,108 +1,147 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Chef Tools Website</h1>
 
-Welcome mark john,
+[view project here.](https://marmiteontoast.github.io/project-portfolio-1/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is the knife sharpening sign up website for the knife retail shop Chef tools. It is designed to be responsive and accessible on a range of divices, making it easy to naviagate for potential clients and customers.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<h2 align="center"><img src="assets/css/images/Responsive-screenshot-2.0.png"></h2>
 
-## Gitpod Reminders
+<h1>Features</h1>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- ## Navigation
 
-`python3 -m http.server`
+    -  Featuring at the top of the page, it shows the name of the website in the left corner: Chefs Tools
+    -  Navigation can be found on the right side: Home, Knives and sign up. The first link (Home) will bring you to the index page while the other two link to separte html pages.
+    -  the navigation is in a Lato font style 
+    -  One the far right of the navigation next sign up bar icon, and will activate when the browser reaches a certain width.
+    -  the navigation is red and white combination, the whole navigation bar is a shade of red while the text and icon is white for contrast.
+    -  the nav bar is responsive. scaling down the width past 911px will cause the links to disapear, the bar icon can now be used to reveal the nav links within a side menu.
 
-A blue button should appear to click: _Make Public_,
+<h2><img src="assets/css/images/signup-screenshot-2.0.png"></h2>
 
-Another blue button should appear to click: _Open Browser_.
+  
+  - ## The Header
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    - The header consists of the "hero image" of a man sharpening a knife on a whetstone. 
+    - There is a piece of text on the bottom right corner of the image provding the location. 
+    - This section provides the visitor information and a visual of what the website is about. 
 
-A blue button should appear to click: _Make Public_,
+<h2><img src="assets/css/images/header-screenshot.png"></h2>
 
-Another blue button should appear to click: _Open Browser_.
+- ## about/Why Knife sharpening? section
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    - This section provides a brief explanation of the benefits of learning to sharpen. 
+    - The image gives the vistor a visual of what the classes would look like and how fun i can be. 
+    - also shows that the classes are available for all genders.
+    - the section is responsive once it reaches 911px or less the two divs will stack on top of each other and slightly reduce in size
 
-To log into the Heroku toolbelt CLI:
+<h2><img src="assets/css/images/about-section-screenshot.png"></h2>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- ## Testimonails 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    - This section provides proof for the visitor that the participants found the classes informative and enjoyable 
+    - shows visitors it's level of success and quality of service 
+    - It shows visitors an unbised view and establishs customer trust.
 
-------
+    <h2><img src="assets/css/images/testimonial-screenshot.png"></h2>
 
-## Release History
+ - ## Times 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+     - this sections providice visitor with the scedule, tiime and price of the classes 
+     - this gives visitors the information on which class to pick from and best supports there scedule 
+     - The times section is also a link to the sign up page, so visitors don't have to scroll back up the page to click to the next page.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<h2><img src="assets/css/images/times-screenshot-2.0.png"></h2>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- ## Footer/contact section 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+    - vistiors are provided with a phone number and email which ever is best for them to use.
+    - the site also provides links to various social media accounts in the form of icons.
+    - The section is important because it gives the visitor the ability to contact someone at chef tools for any sort of enquiries they may have.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<h2><img src="assets/css/images/footer-section-screenshot.png"></h2>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- ## Knives Page
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+    - This section provides the vistitor with information on some of the various Japanese knifes 
+    - It section gives a general understanding of a knife profile and provides an idea of what sharpening technique on wich to use.
+    - pictures provide a visual of how the knife looks (knife profile vary according to knife maker)
+    - The page is responsive and shrinks down to all media devices.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<h2><img src="assets/css/images/knives-screenshot-3.0.png"></h2>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- ## sign up Page
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    - this page consists of an image of a man sharpening a knife for its background 
+    - on the top left corner there is a form with three boxes to input your name, sir name, and email adress. below that are buttons reprasenting the date the classes are on. 
+    - this page provides the vistor to the chance to sign up for the sharpening class.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<h2><img src="assets/css/images/signup-screenshot.png"></h2>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+# Testing
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+ - I have tested the site and it works on browsers: Chrome, Firefox, and Safari.
+ - I confirmed the site is responsive, looks great and functions on all current screen sizes using dev tools.
+ - I confirmed all nav and social links function properly, and contact info is readable and clear to understand.
+ - I have confirmed the form on the sign up page works: requires correct entries in all fields, will only accept first name, sir name, email address and the class you prefer. 
 
-------
+ ## bugs
 
-## FAQ about the uptime script
+### solved bugs:
 
-**Why have you added this script?**
+ - when i reduced the screen size the the times section would create overflow passing through the footer.
+ - I discovered it was the ul selector specifically "position: fixed", that was affecting all ul's on my index page.
+    
+  <h2><img src="assets/css/images/slack-screenshot.png"></h2>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- removal of attribute fixed this as well as giving nav and footer elements separate ids.
 
-**How will this affect me?**
+## Validator Tesing 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- ### HTML
+    - No errors detected when passing through official W3C validator
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- ### CSS
+    - No errors detected when passing through officail (Jigsaw) Validator
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- ### Accessibility
+    - I have confirmed that colors and font styles are readable, and accessibility is a high percentage for all pages on this project using lighthouse in devtools.
 
-**So….?**
+    - ### index
+    <h2><img src="assets/css/images/index-LH-Screenshot.png"></h2>
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+    - ### Knives
+    <h2><img src="assets/css/images/knive-LH-Screenshot.png"></h2>
 
-**Can I opt out?**
+    - ### sign up
+    <h2><img src="assets/css/images/signup-LH-screenshot.png"></h2>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## unfixed bugs
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- when the screen is expanded beyond 2000px the div that floats on top of the hero image all the the way to the right.
 
-**Anything more?**
+# Deployment
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+The site is deployed on GitHub. The steps to deploy are as follows:
 
----
+- Click on repository 'project-portfolio-1' from my account. From there navigate to settings.
+- scroll down to GitHub pages, there will be a link to navigate you to the next page.
+- select main in the branch, then you will be provided a link that will take you to the completed website
 
-Happy coding!
+[view project here.](https://marmiteontoast.github.io/project-portfolio-1/)    
+
+# Credits
+
+## Content
+
+- the code to make the navigation bar was taken from a [youtube video](https://www.youtube.com/watch?v=oLgtucwjVII&list=PLMmcKEMXVzoKWH-ErijZhEH8T9yAT4htZ&index=1&t=197s) 
+- the footer code was taken from love running project 
+
+## Media 
+
+- Got all knife pictures on the knives page from the site [knife wear](https://knifewear.com/)
+- pictures on the index page was found through google search.
+
+
