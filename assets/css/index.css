@@ -28,7 +28,6 @@ header {
 }
 
 nav {
-    /* background: #ff1b2e; */
     height: 80px;
     width: 100%;
 }
@@ -80,7 +79,6 @@ a .active, a:hover {
 
 /* hero image and cover content */
 #hero-outer {
-    /* background: purple; */
     height: 600px;
     width: 100%;
 }
@@ -147,10 +145,6 @@ a .active, a:hover {
 }
 
 /* testimonials */
-#testimonials  {
-    /* height: 70.25rem; */
-}
- 
 #testimonials h2 {
     text-align: center;
 }
@@ -183,10 +177,6 @@ a .active, a:hover {
     border: solid;
     text-align: center;
     color:white
-}
-
-#times h2, h3 {
-    /* color: white; */
 }
 
 /* footer */
@@ -378,11 +368,6 @@ footer p {
        height: 47%;
        margin-left: 160px;  
    }
-
-   #testimonials {
-       /* height: 74Srem; */
-   } 
-
 
    #times  div {
         height: 150px;

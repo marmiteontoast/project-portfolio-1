@@ -4,20 +4,20 @@
 
 This is the knife sharpening sign up website for the knife retail shop Chef tools. It is designed to be responsive and accessible on a range of divices, making it easy to naviagate for potential clients and customers.
 
-<h2 align="center"><img src="assets/css/images/responsive-screenshot.png"></h2>
+<h2 align="center"><img src="assets/css/images/Responsive-screenshot-2.0.png"></h2>
 
 <h1>Features</h1>
 
 - ## Navigation
 
     -  Featuring at the top of the page, it shows the name of the website in the left corner: Chefs Tools
-    -  Navigation can be found of the right side: Home, About, Knives and sign up. The first two link to various sections of the index page while the other two link to separte html pages.
+    -  Navigation can be found on the right side: Home, Knives and sign up. The first link (Home) will bring you to the index page while the other two link to separte html pages.
     -  the navigation is in a Lato font style 
-    -  One the far right of the navigation next sign up bar icon, and will activate when the browser reaches a sertain width.
+    -  One the far right of the navigation next sign up bar icon, and will activate when the browser reaches a certain width.
     -  the navigation is red and white combination, the whole navigation bar is a shade of red while the text and icon is white for contrast.
     -  the nav bar is responsive. scaling down the width past 911px will cause the links to disapear, the bar icon can now be used to reveal the nav links within a side menu.
 
-<h2><img src="assets/css/images/nav-screen-shot.png"></h2>
+<h2><img src="assets/css/images/signup-screenshot-2.0.png"></h2>
 
   
   - ## The Header
@@ -49,9 +49,10 @@ This is the knife sharpening sign up website for the knife retail shop Chef tool
 
      - this sections providice visitor with the scedule, tiime and price of the classes 
      - this gives visitors the information on which class to pick from and best supports there scedule 
+     - The times section is also a link to the sign up page, so visitors don't have to scroll back up the page to click to the next page.
 
 
-<h2><img src="assets/css/images/times-screenshot.png"></h2>
+<h2><img src="assets/css/images/times-screenshot-2.0.png"></h2>
 
 - ## Footer/contact section 
 
@@ -68,7 +69,7 @@ This is the knife sharpening sign up website for the knife retail shop Chef tool
     - pictures provide a visual of how the knife looks (knife profile vary according to knife maker)
     - The page is responsive and shrinks down to all media devices.
 
-<h2><img src="assets/css/images/knives-screenshot-2.0.png"></h2>
+<h2><img src="assets/css/images/knives-screenshot-3.0.png"></h2>
 
 - ## sign up Page
 
@@ -77,3 +78,12 @@ This is the knife sharpening sign up website for the knife retail shop Chef tool
     - this page provides the vistor to the chance to sign up for the sharpening class.
 
 <h2><img src="assets/css/images/signup-screenshot.png"></h2>
+
+
+
+<h1>Testing</h1>
+
+    - I have tested the site and it works on browsers: Chrome, Firefox, and Safari.
+    - I confirmed the site is responsive, looks great and functions on all current screen sizes using dev tools.
+    - I confirmed all nav and social links function properly, and contact info is readable and clear to understand.
+    - i have confirmed the form on the sign up page work: requires correct entries in all fields, will only accept first name, sir name, email address and the class you prefer. 
