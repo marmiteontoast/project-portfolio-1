@@ -80,10 +80,19 @@ This is the knife sharpening sign up website for the knife retail shop Chef tool
 <h2><img src="assets/css/images/signup-screenshot.png"></h2>
 
 
+# Testing
 
-<h1>Testing</h1>
+ - I have tested the site and it works on browsers: Chrome, Firefox, and Safari.
+ - I confirmed the site is responsive, looks great and functions on all current screen sizes using dev tools.
+ - I confirmed all nav and social links function properly, and contact info is readable and clear to understand.
+ - I have confirmed the form on the sign up page works: requires correct entries in all fields, will only accept first name, sir name, email address and the class you prefer. 
 
-    - I have tested the site and it works on browsers: Chrome, Firefox, and Safari.
-    - I confirmed the site is responsive, looks great and functions on all current screen sizes using dev tools.
-    - I confirmed all nav and social links function properly, and contact info is readable and clear to understand.
-    - i have confirmed the form on the sign up page work: requires correct entries in all fields, will only accept first name, sir name, email address and the class you prefer. 
+ ## bugs
+
+solved bugs:
+
+ - when i reduced the screen size the the times section would create overflow passing through the footer.
+ - I discovered it was the ul selector specifically "position: fixed", that was affecting all ul's on my index page.
+    
+  <h2><img src="assets/css/images/slack-screenshot.png"></h2>
+- removal of attribute fixed this as well as giving nav and footer elements separate ids.
